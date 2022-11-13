@@ -1,0 +1,13 @@
+﻿<Window x:Class="Librerie_STRINGHE.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Librerie_STRINGHE"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <StackPanel>
+        <Button x:Name="btnTEST" Content="TEST" Click="btnTEST_Click"  FontSize="28"></Button>
+        <ListBox x:Name="lstOut" FontSize="28" Height="250" Width="800"></ListBox>
+    </StackPanel>
+</Window>
